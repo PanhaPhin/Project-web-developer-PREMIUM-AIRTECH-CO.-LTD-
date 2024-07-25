@@ -1,0 +1,19 @@
+// Imports
+import ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `:root{--cookie-banner-primary-color: #fff;--cookie-banner-secondary-color: #000;--cookie-banner-font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;--cookie-banner-font-size: 14px}.dz8xDz{position:relative;display:inline-block;width:48px;height:24px;box-sizing:border-box;-webkit-tap-highlight-color:rgba(0,0,0,0)}.dz8xDz.KXRgi2{box-shadow:0 0 0 1px #fff,0 0 0 3px #116dff !important}.BfPLBO{opacity:0;top:0;left:0;margin:0;padding:0;cursor:inherit;outline:none;border:none;box-shadow:none}.kCHabv{position:absolute;left:0;top:0;width:100%;height:100%;color:#cbd3dc;cursor:pointer}.NDtop7{position:absolute;left:0;top:0;width:100%;height:100%;background-color:currentColor;border-radius:12px;transition:all 300ms ease}.kCHabv{color:#a4a4a4}.kCHabv:hover{color:#cbd3dc}.kCHabv:active{color:#cbd3dc}.BfPLBO:checked+.kCHabv:hover{color:#4c4c4c}.BfPLBO:checked+.kCHabv,.BfPLBO:checked+.kCHabv:active,.BfPLBO:checked+.kCHabv:active:hover{color:#000}.BfPLBO:disabled+.kCHabv,.BfPLBO:disabled+.kCHabv:hover,.BfPLBO:disabled+.kCHabv:active,.BfPLBO:disabled+.kCHabv:active:hover{color:rgba(22,45,61,.1)}.MezgNL{position:absolute;left:1px;top:1px;width:22px;height:22px;border-radius:12px;box-shadow:0 2px 1px 0 rgba(22,45,61,.48),0 0 3px 0 rgba(22,45,61,.12);transition:all 300ms ease;display:flex;align-items:center;justify-content:center;background:#fff}.BfPLBO:checked+label .MezgNL{left:calc(50% + 1px)}.tXvr8R{width:11px;height:11px;transition:opacity 300ms ease;margin-top:1px}.BfPLBO:not(:checked)+label .Kdinlh,.BfPLBO:checked+label .n97qfL{opacity:0;display:none}@media(max-width: 375px){.dz8xDz{width:36px;height:20px}.MezgNL{width:18px;height:18px;border-radius:9px}.BfPLBO:checked+label .MezgNL{left:calc(50% - 1px)}.tXvr8R{width:9px;height:9px}}`, ""]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"toggle": `dz8xDz`,
+	"focus": `KXRgi2`,
+	"input": `BfPLBO`,
+	"label": `kCHabv`,
+	"track": `NDtop7`,
+	"knob": `MezgNL`,
+	"icon": `tXvr8R`,
+	"iconTrue": `Kdinlh`,
+	"iconFalse": `n97qfL`
+};
+export default ___CSS_LOADER_EXPORT___;

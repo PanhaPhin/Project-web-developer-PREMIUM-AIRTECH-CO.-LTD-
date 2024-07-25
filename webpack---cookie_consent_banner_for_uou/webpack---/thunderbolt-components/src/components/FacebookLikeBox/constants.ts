@@ -1,0 +1,11 @@
+export const COMP_HEIGHTS = {
+	SIMPLE: 130,
+	FACES: 214,
+	STREAM: 575,
+	MAX: 2000,
+}
+
+export const COMP_WIDTHS = {
+	MIN_WIDTH: 280,
+	MAX_WIDTH: 500,
+}

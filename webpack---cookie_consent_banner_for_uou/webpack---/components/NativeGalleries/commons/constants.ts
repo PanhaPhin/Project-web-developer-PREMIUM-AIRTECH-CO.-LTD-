@@ -1,0 +1,45 @@
+export const translations = {
+  ARIA_LABEL_NAMESPACE: 'ariaLabels',
+  IMAGE_ZOOM_ARIA_LABEL_KEY: 'GalleryItem_AriaLabel_ZoomImageButton',
+  IMAGE_ZOOM_ARIA_LABEL_DEFAULT: 'press to zoom',
+  NAVIGATION_BUTTONS_ARIA_LABEL_KEY: 'Gallery_AriaLabel_NavigationButtons',
+  NAVIGATION_BUTTONS_ARIA_LABEL_DEFAULT: 'slides',
+  NEXT_BUTTON_ARIA_LABEL_KEY: 'Gallery_AriaLabel_NextButton',
+  NEXT_BUTTON_ARIA_LABEL_DEFAULT: 'next',
+  PREV_BUTTON_ARIA_LABEL_KEY: 'Gallery_AriaLabel_PrevButton',
+  PREV_BUTTON_ARIA_LABEL_DEFAULT: 'previous',
+};
+
+export const TestIds = {
+  item: 'gallery-item-item',
+  panel: 'gallery-item-panel',
+  title: 'gallery-item-title',
+  panelLink: 'gallery-item-panel-link',
+  description: 'gallery-item-description',
+  link: 'gallery-item-click-action-link',
+  imageZoomBtn: 'gallery-item-click-action-image-zoom',
+  ariaDescribedbyId: 'gallery-item-describedby-id',
+  disabledClickActionWrapper: 'gallery-item-click-action-disabled',
+  navButtons: 'gallery-navButtons',
+  prevButton: 'gallery-prevButton',
+  nextButton: 'gallery-nextButton',
+  prevButtonInner: 'gallery-prevButtonInner',
+  nextButtonInner: 'gallery-nextButtonInner',
+  counter: 'gallery-counter',
+} as const;
+
+export const legacyTransitionTypesMap = {
+  outIn: 'OutIn',
+  crossfade: 'CrossFade',
+  shrinkfade: 'CrossFade',
+  swipeHorizontal: 'SlideHorizontal',
+  swipeHorizontalFullScreen: 'SlideHorizontal',
+  swipeVertical: 'SlideVertical',
+  swipeVerticalFullScreen: 'SlideVertical',
+  seq_crossFade_All: 'CrossFade',
+  seq_shrink_All: 'Shrink',
+  swipe_horiz_All: 'SlideHorizontal',
+  swipe_vert_All: 'SlideVertical',
+  seq_random: 'Random',
+  none: 'NoTransition',
+} as const;

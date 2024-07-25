@@ -1,0 +1,14 @@
+// Imports
+import ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `:root{--cookie-banner-primary-color: #fff;--cookie-banner-secondary-color: #000;--cookie-banner-font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;--cookie-banner-font-size: 14px}.Pg7AcP{align-self:center;display:inline-block;min-width:55px;height:32px;padding:0 16px 0 16px;margin:6px;text-align:center;cursor:pointer;font-family:var(--cookie-banner-font-family);font-size:var(--cookie-banner-font-size);font-weight:normal;font-stretch:normal;font-style:normal;letter-spacing:normal;white-space:nowrap;overflow:hidden;color:var(--cookie-banner-primary-color);border:solid 1px var(--cookie-banner-secondary-color);background-color:var(--cookie-banner-secondary-color)}.Pg7AcP.Mm8Lm6{color:var(--cookie-banner-secondary-color);border:solid 1px var(--cookie-banner-secondary-color);background-color:var(--cookie-banner-primary-color)}.Pg7AcP.dukD6Z{color:#fff;background-color:#000;border:solid 1px #000}.Pg7AcP.dukD6Z.Mm8Lm6{border:solid 1px #fff}.Pg7AcP.KiIMJv{color:#000;border:solid 1px #fff;background-color:#fff}.Pg7AcP.KiIMJv.Mm8Lm6{border:solid 1px #000}@media only screen and (min-width: 750px){.Pg7AcP{flex-basis:auto !important}}`, ""]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"button": `Pg7AcP`,
+	"secondary": `Mm8Lm6`,
+	"dark": `dukD6Z`,
+	"light": `KiIMJv`
+};
+export default ___CSS_LOADER_EXPORT___;

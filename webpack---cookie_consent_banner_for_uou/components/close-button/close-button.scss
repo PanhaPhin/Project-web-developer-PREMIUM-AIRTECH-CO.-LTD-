@@ -1,0 +1,14 @@
+// Imports
+import ___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/noSourceMaps.js";
+import ___CSS_LOADER_API_IMPORT___ from "../../../../node_modules/css-loader/dist/runtime/api.js";
+var ___CSS_LOADER_EXPORT___ = ___CSS_LOADER_API_IMPORT___(___CSS_LOADER_API_NO_SOURCEMAP_IMPORT___);
+// Module
+___CSS_LOADER_EXPORT___.push([module.id, `:root{--cookie-banner-primary-color: #fff;--cookie-banner-secondary-color: #000;--cookie-banner-font-family: HelveticaNeue, Helvetica Neue, helvetica, Sans-Serif;--cookie-banner-font-size: 14px}.A9d5ZY{margin:0;padding:0;background:rgba(0,0,0,0);border:none}.A9d5ZY .EiWNMp{height:24px;width:24px;cursor:pointer}.A9d5ZY .EiWNMp.DnrCR3{filter:invert(100%)}@media only screen and (max-width: 750px){.A9d5ZY{width:48px;height:48px;position:relative}.A9d5ZY .EiWNMp{position:absolute;top:0;right:0}}`, ""]);
+// Exports
+___CSS_LOADER_EXPORT___.locals = {
+	"close-button": `A9d5ZY`,
+	"closeButton": `A9d5ZY`,
+	"closeButtonImage": `EiWNMp`,
+	"dark": `DnrCR3`
+};
+export default ___CSS_LOADER_EXPORT___;

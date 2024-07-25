@@ -1,0 +1,13 @@
+import api from "!../../../../node_modules/@wix/yoshi-style-dependencies/node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js";
+            import content from "!!../../../../node_modules/@wix/yoshi-style-dependencies/css-loader.js??ruleSet[1].rules[2].rules[1].oneOf[1]!../../../../node_modules/@wix/yoshi-style-dependencies/postcss-loader.js??ruleSet[1].rules[2].rules[2]!../../../../node_modules/@wix/yoshi-style-dependencies/resolve-url-loader.js!../../../../node_modules/@wix/yoshi-style-dependencies/sass-loader.js??ruleSet[1].rules[2].rules[4]!./section.scss";
+
+var options = {"injectType":"singletonStyleTag"};
+
+options.insert = "head";
+options.singleton = true;
+
+var update = api(content, options);
+
+
+
+export default content.locals || {};
